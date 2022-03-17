@@ -1,0 +1,86 @@
+.nav__item{
+   
+    display:inline;
+    padding-left:10px;
+    padding-right:10px;
+    text-decoration: none;
+    color: white;
+    
+}
+body{
+    background-color: aliceblue;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/1581/1581639.png");
+    
+}
+.header__title{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    
+}
+
+.nav{
+    background-color: black;
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+}
+.nav__link:visited{
+    color: white;
+
+}
+.historia__title{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+ }   
+ 
+ .imagen__historia{
+     float: center;
+     height: 200px;
+     width: 200px;
+ 
+ }
+ .historia{
+     width: 50%;
+ }
+ 
+  
+ 
+ .historia__p{
+     color: white;
+     width: 50%;
+     background-color: rgb(44, 63, 63);
+     font-family: 'Fredoka', sans-serif;
+     padding-bottom: 50px;
+ }     
+ 
+.footer__title{
+    text-align: center;
+}
+.footer{
+    background-color:black;
+    color: white;
+    height: 12vh;
+    margin-top: 200px;
+    display: flex;
+}
+.footer__img{
+    width: 50px; ;
+    height: 50px;
+}
+.footer__p{
+   padding-left: 200px;
+}
+ 
+
+.footer__social li {
+    display:inline;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.social{
+    text-align: center;
+}

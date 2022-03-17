@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AEAA,AAAA,OAAO,AAAA,CACH,gBAAgB,CDDL,GAAG,CCEjB",
+    "sources": [
+        "main.scss",
+        "abstracts/_variables.scss",
+        "pages/index.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
