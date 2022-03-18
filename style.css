@@ -1,23 +1,21 @@
-.nav__item{
-   
+#lista li{
     display:inline;
     padding-left:10px;
     padding-right:10px;
-    text-decoration: none;
+    
     color: white;
     
 }
 body{
     background-color: aliceblue;
-    background-image: url("https://cdn-icons-png.flaticon.com/512/1581/1581639.png");
+    background-image: url("https://tecnishop.site/wp-content/uploads/2013/05/dw2autoadministrables.png");
     
 }
-.header__title{
+.title{
     font-family: 'Roboto', sans-serif;
     text-align: center;
     background-repeat: no-repeat;
     object-fit: cover;
-    
 }
 
 .nav{
@@ -30,38 +28,14 @@ body{
     color: white;
 
 }
-.historia__title{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: flex;
- }   
+
  
- .imagen__historia{
-     float: center;
-     height: 200px;
-     width: 200px;
- 
- }
- .historia{
-     width: 50%;
- }
- 
-  
- 
- .historia__p{
-     color: white;
-     width: 50%;
-     background-color: rgb(44, 63, 63);
-     font-family: 'Fredoka', sans-serif;
-     padding-bottom: 50px;
- }     
- 
-.footer__title{
+h3{
     text-align: center;
 }
 .footer{
-    background-color:black;
-    color: white;
+    background-color: beige;
+    color: rgb(12, 12, 12);
     height: 12vh;
     margin-top: 200px;
     display: flex;
@@ -70,12 +44,32 @@ body{
     width: 50px; ;
     height: 50px;
 }
-.footer__p{
-   padding-left: 200px;
-}
- 
+.historia{
+   padding-top: 10px;
+   padding-bottom: 10px;
+}   
 
-.footer__social li {
+img{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+      img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+     }
+      }
+
+p{
+    color: white;
+    width: 50%;
+    background-color: rgb(44, 63, 63);
+    font-family: 'Fredoka', sans-serif;
+    padding-bottom: 50px;
+}      
+
+.social li {
     display:inline;
     text-align: center;
     padding-left: 10px;
